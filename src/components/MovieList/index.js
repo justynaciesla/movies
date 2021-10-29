@@ -1,5 +1,4 @@
-import React, { useContext } from "react";
-import RootContext from "../../context";
+import React from "react";
 import MovieListItem from "../MovieListItem";
 import Pagination from "../Pagination";
 import "./style.css";

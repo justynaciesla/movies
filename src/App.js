@@ -12,7 +12,6 @@ const App = () => {
   const [similarMovies, setSimilarMovies] = useState([]);
   const [movieCast, setMovieCast] = useState([]);
   const [reviews, setReviews] = useState([]);
-  const [starCount, setStarCount] = useState([]);
 
   useEffect(() => {
     getMovies();
