@@ -1,0 +1,25 @@
+.header1 {
+  font-size: 6vw;
+  margin: 200px 30px 100px 130px;
+  font-weight: 700;
+  color: white;
+}
+
+.header2 {
+  font-size: 6vw;
+  margin: 200px 0px 100px 0px;
+  font-weight: 300;
+  color: white;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 5%, #000000),
+    url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/12/theater-02.jpg) !important;
+}
+
+.home-wrapper {
+  background: black;
+}

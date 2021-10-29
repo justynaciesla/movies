@@ -1,0 +1,27 @@
+.similar-movie__img {
+  width: 200px;
+  height: 250px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.similar-movies__title {
+  color: white;
+  margin: 0px 10px 20px 100px;
+}
+
+.similar-movie-item-title {
+  color: white;
+}
+
+.info-img {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.title-info-button__wrapper {
+  display: flex;
+  flex-direction: row;
+}

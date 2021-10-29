@@ -1,0 +1,137 @@
+.title-header {
+  font-size: 6vw;
+  margin: 200px 0px 100px 100px;
+  font-weight: 300;
+  color: white;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 5%, #000000),
+    url(https://ali.sandbox.etdevs.com/divi/wp-content/uploads/sites/2/2019/12/theater-02.jpg) !important;
+}
+
+.home-wrapper {
+  background: black;
+  height: 100%;
+}
+
+.single-movie_img {
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.single-movie-content__wrapper {
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+}
+
+.single-movie-text-wrapper {
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 60%;
+}
+
+.movie-title {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.movie-overview {
+  color: white;
+  line-height: 1.5;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.movie-release {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.movie-rate {
+  color: #666;
+}
+
+.similar-movies-list__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px 20px;
+
+  background: black;
+  width: 80em;
+  overflow-x: auto;
+  margin: 0px 100px 100px 100px;
+}
+
+.similar-movie__img {
+  width: 200px;
+  height: 250px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.similar-movies__title {
+  color: white;
+  margin: 0px 10px 20px 100px;
+}
+
+.similar-movie-item-title {
+  color: white;
+}
+
+.info-img {
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.title-info-button__wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 220px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 24%;
+  margin-left: 5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

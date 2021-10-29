@@ -1,0 +1,10 @@
+.similar-movies-list__wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px 20px;
+  background: black;
+  width: 85%;
+  overflow-x: auto;
+  margin: 0px 100px 100px 100px;
+}
