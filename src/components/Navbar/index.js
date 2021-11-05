@@ -43,6 +43,7 @@ const Navbar = () => {
               value={searchMovieInputValue}
               onChange={handleSearchInputChange}
               className="search-input"
+              autocomplete="off"
             />
           </div>
         )}
